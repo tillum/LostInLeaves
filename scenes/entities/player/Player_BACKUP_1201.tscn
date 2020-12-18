@@ -94,8 +94,11 @@ __meta__ = {
 scale = Vector2( 0.25, 0.25 )
 frames = SubResource( 13 )
 animation = "Left"
+<<<<<<< Updated upstream
 frame = 3
 playing = true
+=======
+>>>>>>> Stashed changes
 offset = Vector2( 0.5, 0.5 )
 flip_h = true
 
