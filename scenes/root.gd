@@ -1,14 +1,14 @@
 extends Node
 
-onready var player = preload("res://scenes/entities/player/Player.tscn")
+onready var GameWorld = preload("res://scenes/world/GameWorld.tscn")
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
 
-var _tilemap
-var _tileset
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var p = player.instance()
-	add_child(p)
+	add_child(GameWorld.instance())
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
